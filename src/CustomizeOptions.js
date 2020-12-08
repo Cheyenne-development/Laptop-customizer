@@ -13,7 +13,6 @@ export default class CustomizeOptions extends React.Component{
             const featureHash = feature + '-' + idx;
             const options = this.props.store[feature].map(item => {
               const itemHash = slugify(JSON.stringify(item));
-              console.log(this.props.handleUpdate)
               return (
                 <div key={itemHash} className="feature__item">
                   <input
