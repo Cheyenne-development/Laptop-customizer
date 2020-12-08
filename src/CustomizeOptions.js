@@ -9,10 +9,11 @@ const USCurrencyFormat = new Intl.NumberFormat('en-US', {
 export default class CustomizeOptions extends React.Component{
     render(){
 
-        const features = Object.keys(this.props.features).map((feature, idx) => {
+        const features = Object.keys(this.props.store).map((feature, idx) => {
             const featureHash = feature + '-' + idx;
-            const options = this.props.features[feature].map(item => {
+            const options = this.props.store[feature].map(item => {
               const itemHash = slugify(JSON.stringify(item));
+              console.log(this.props.handleUpdate)
               return (
                 <div key={itemHash} className="feature__item">
                   <input
@@ -21,7 +22,7 @@ export default class CustomizeOptions extends React.Component{
                     className="feature__option"
                     name={slugify(feature)}
                     checked={item.name === this.props.selected[feature].name}
-                    onChange={() => this.props.updateFeature(feature, item)}
+                    onChange={e => this.props.handleUpdate(feature, item)}
                   />
                   <label htmlFor={itemHash} className="feature__label">
                     {item.name} ({USCurrencyFormat.format(item.cost)})
