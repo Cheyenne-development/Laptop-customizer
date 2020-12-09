@@ -9,16 +9,14 @@ const USCurrencyFormat = new Intl.NumberFormat('en-US', {
 
 
 export default class Parts extends React.Component {
-    
-    
+
+
     render() {
-        const parts = this.props.part    
+        const parts = this.props.part
         const hardware = this.props.store[parts].map(item => {
             const itemHash = slugify(JSON.stringify(item));
             const parts = this.props.part
-            console.log(item, "item")
-            console.log(parts, "feature")
-                return (
+            return (
                 <div key={itemHash} className="feature__item">
                     <input
                         type="radio"
@@ -33,9 +31,9 @@ export default class Parts extends React.Component {
                 </div>
             );
         });
-            return (
+        return (
             <div>
-                { hardware }
+                { hardware}
             </div >
         )
     }
