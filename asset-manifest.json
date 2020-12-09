@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/laptop-customizer/static/css/main.42a420bb.chunk.css",
-    "main.js": "/laptop-customizer/static/js/main.8a870b40.chunk.js",
-    "main.js.map": "/laptop-customizer/static/js/main.8a870b40.chunk.js.map",
+    "main.js": "/laptop-customizer/static/js/main.e1ae7e41.chunk.js",
+    "main.js.map": "/laptop-customizer/static/js/main.e1ae7e41.chunk.js.map",
     "runtime-main.js": "/laptop-customizer/static/js/runtime-main.4f50e2e6.js",
     "runtime-main.js.map": "/laptop-customizer/static/js/runtime-main.4f50e2e6.js.map",
-    "static/js/2.487cfc0f.chunk.js": "/laptop-customizer/static/js/2.487cfc0f.chunk.js",
-    "static/js/2.487cfc0f.chunk.js.map": "/laptop-customizer/static/js/2.487cfc0f.chunk.js.map",
+    "static/js/2.9c9e507a.chunk.js": "/laptop-customizer/static/js/2.9c9e507a.chunk.js",
+    "static/js/2.9c9e507a.chunk.js.map": "/laptop-customizer/static/js/2.9c9e507a.chunk.js.map",
     "index.html": "/laptop-customizer/index.html",
-    "precache-manifest.d31647b7e82c7f97926738574fc2c0a6.js": "/laptop-customizer/precache-manifest.d31647b7e82c7f97926738574fc2c0a6.js",
+    "precache-manifest.48862b5f5c812e68b4cd35faf3446721.js": "/laptop-customizer/precache-manifest.48862b5f5c812e68b4cd35faf3446721.js",
     "service-worker.js": "/laptop-customizer/service-worker.js",
     "static/css/main.42a420bb.chunk.css.map": "/laptop-customizer/static/css/main.42a420bb.chunk.css.map",
-    "static/js/2.487cfc0f.chunk.js.LICENSE.txt": "/laptop-customizer/static/js/2.487cfc0f.chunk.js.LICENSE.txt"
+    "static/js/2.9c9e507a.chunk.js.LICENSE.txt": "/laptop-customizer/static/js/2.9c9e507a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4f50e2e6.js",
-    "static/js/2.487cfc0f.chunk.js",
+    "static/js/2.9c9e507a.chunk.js",
     "static/css/main.42a420bb.chunk.css",
-    "static/js/main.8a870b40.chunk.js"
+    "static/js/main.e1ae7e41.chunk.js"
   ]
 }
